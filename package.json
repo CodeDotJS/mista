@@ -1,0 +1,50 @@
+{
+    "name": "mista",
+    "version": "1.0.0",
+    "description": "Scrape all downloadable urls of the Instagram posts that has multiple images or videos!",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CodeDotJS/mista.git"
+    },
+    "author": "Rishi Giri <rushforlinux@gmail.com> (rishi.ml)",
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "files": [
+        "cli.js"
+    ],
+    "keywords": [
+        "instagram",
+        "multiple",
+        "insta",
+        "images",
+        "videos",
+        "download",
+        "user",
+        "scrap",
+        "fetch",
+        "save",
+        "instagram-user"
+    ],
+    "dependencies": {
+        "got": "6.6.3",
+        "is-url": "^1.2.4"
+    },
+    "devDependencies": {
+        "ava": "*",
+        "execa": "^0.2.2",
+        "xo": "*"
+    },
+    "xo": {
+        "esnext": true
+    },
+    "bugs": {
+        "url": "https://github.com/CodeDotJS/mista/issues"
+    },
+    "homepage": "https://github.com/CodeDotJS/mista#readme",
+    "main": "index.js"
+}
